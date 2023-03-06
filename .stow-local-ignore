@@ -1,0 +1,7 @@
+\.git
+\.gitignore
+\.gitconfig
+\.ssh
+^/install.sh
+^/install-arch.sh
+^/README.*

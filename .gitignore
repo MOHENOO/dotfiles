@@ -1,0 +1,9 @@
+.ssh/known_hosts
+.ssh/known_hosts.old
+.ssh/config
+.config/lvim/lazy-lock.json
+.config/nvim/lazy-lock.json
+.config/sketchybar/helper/helper
+.config/tmux/plugins
+.config/k9s/clusters
+.config/btop/themes

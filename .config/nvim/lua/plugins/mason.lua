@@ -1,0 +1,44 @@
+return {
+  -- add any tools you want to have installed below
+  -- {
+  --   "williamboman/mason.nvim",
+  --   opts = {
+  --     ensure_installed = {
+  --       -- sh
+  --       "shfmt",
+  --       "shellcheck",
+  --       "bash-debug-adapter",
+  --       -- c,cpp
+  --       -- "clang-format",
+  --       -- "codelldb",
+  --       -- go
+  --       -- "gopls",
+  --       -- "goimports",
+  --       -- "gofumpt",
+  --       -- "golangci-lint",
+  --       -- "gomodifytags",
+  --       -- "gotests",
+  --       -- "impl",
+  --       -- "delve",
+  --       -- json, jsonc, yaml, xml
+  --       "prettier",
+  --       "yamllint",
+  --       "taplo",
+  --       -- lua
+  --       "stylua",
+  --       "lua-language-server",
+  --       -- markdown
+  --       "markdownlint",
+  --       "marksman",
+  --       -- python
+  --       -- "pyright",
+  --       -- "isort",
+  --       -- "ruff",
+  --       -- "debugpy",
+  --       -- rust
+  --       -- "codelldb",
+  --       -- "rust-analyzer",
+  --     },
+  --   },
+  -- },
+}

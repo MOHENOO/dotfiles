@@ -1,0 +1,37 @@
+[user]
+  name = mohenoo
+  email = mohenoo@gmail.com
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGIMpyUM7Sac+gZFo94DNZSNpEc9lkjc6ptlV4o+YnD0
+
+[core]
+  editor = nvim
+  pager = delta
+
+[interactive]
+  diffFilter = delta --color-only
+
+[include]
+  path = ~/.config/delta/themes/latte.gitconfig
+	path = ~/.config/delta/themes/frappe.gitconfig
+
+[delta]
+  features = catppuccin-latte
+  true-color = always
+  navigate = true    # use n and N to move between diff sections
+  side-by-side = true
+  line-numbers = true
+  hyperlinks = true
+  hyperlinks-file-link-format = "file-line://{path}:{line}"
+
+[merge]
+  conflictstyle = diff3
+
+[diff]
+  colorMoved = default
+
+[gpg]
+  format = ssh
+[gpg "ssh"]
+  program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+  gpgsign = true
